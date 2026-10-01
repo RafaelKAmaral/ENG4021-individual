@@ -1,0 +1,60 @@
+body {
+    background-color: #000000;
+    font-family: 'Orbitron', sans-serif;
+}
+
+p {
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+h1, h2, h3 {
+    color: #FFFF00;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #0000FF;
+}
+
+.navegacao {
+    list-style-type: none;
+}
+
+.navegacao a {
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+footer p {
+    color: #FFA500;
+}
+
+#sumario p {
+    color: #00FFFF;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        position: unset;
+        margin-left: 0px;
+    }
+
+    main {
+        margin-left: unset;
+    }
+
+    .navegacao li {
+        display: inline;
+    }
+
+    .navegacao {
+        text-align: right;
+    }
+}
